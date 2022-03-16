@@ -16,17 +16,24 @@ body{
 }
 
 #title h2{
+    margin-top: 12px;
+    margin-bottom:0;
     font-weight: 500;
 }
 
 #sol{
+    padding-top: 12px;
+    padding-bottom: 7px;
     text-align:center;
+    position:sticky;
+    top:0;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .pSol{
     font-style: italic;
     font-size: 0.8rem;
-    margin: 0.5rem auto;
+    margin: 0 auto;
 }
 
 
@@ -35,9 +42,11 @@ body{
 .ley{
     display: flex;
     justify-content: center;
+    
 }
 
 .ley p{
+    margin: 0.5rem auto;
     font-size:0.8rem;
 }
 
@@ -79,7 +88,7 @@ body{
 /* ITEMS */
 
 #items{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -91,7 +100,7 @@ body{
 
 .img img{
     height: 100%;
-    width: 80px;
+    width: 86px;
     max-width: 150px;
     max-height: 150px;
 
